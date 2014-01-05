@@ -1,0 +1,31 @@
+{
+  "name": "test",
+  "description": "testing",
+  "version": "0.0.0",
+  "author": {
+      "name": "nusret",
+      "email": "nusretzaman03@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "",
+      "email": ""
+    }
+  ],
+  "dependencies": {
+      /*"socket.io": "latest"
+     ,"express": "3.4.7"
+      ,"ejs": "0.8.5"*/
+  },
+  "keywords": [
+    "express",
+    "web",
+    "restful",
+    "router",
+    "app"
+
+  ],
+  "scripts": {
+   "start":"node hello.js"
+  }
+}
