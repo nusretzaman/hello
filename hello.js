@@ -1,4 +1,4 @@
-var PORT = 9000;
+/*var PORT = 9000;
 var express = require("express");
 var ejs = require('ejs'), path = require('path');
 
@@ -50,3 +50,17 @@ app.configure('development', function(){
 //app.get('/', routes.index);
 
 console.log("Server on port %s", PORT);
+    */
+
+var express=require("express");
+var app=express();
+var port=process.env.PORT||5000;
+app.use(express.logger());
+
+app.get("/",function(req,res){
+    resp.send("hello");
+});
+
+app.listen(port,function(){
+    console.log("listening on port"+ port);
+});

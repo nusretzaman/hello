@@ -6,26 +6,12 @@
       "name": "nusret",
       "email": "nusretzaman03@gmail.com"
   },
-  "contributors": [
-    {
-      "name": "",
-      "email": ""
-    }
-  ],
   "dependencies": {
-      /*"socket.io": "latest"
-     ,"express": "3.4.7"
-      ,"ejs": "0.8.5"*/
-  },
-  "keywords": [
-    "express",
-    "web",
-    "restful",
-    "router",
-    "app"
 
-  ],
-  "scripts": {
-   "start":"node hello.js"
-  }
+      "express": "latest"
+  },
+    "engines":{
+        "node":"0.10.x",
+        "npm":"1.2.x"
+    }
 }
