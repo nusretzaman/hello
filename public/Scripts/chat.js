@@ -2,7 +2,8 @@ window.onload = function() {
     var PORT = 9000;
 
     var messages = [];
-    var socket = io.connect('http://localhost:9000');
+   // var socket = io.connect('http://localhost:9000/');
+    var socket = io.connect('http://boiling-reef-7065.herokuapp.com/');
     var field = document.getElementById("field");
     var sendButton = document.getElementById("send");
     var content = document.getElementById("content");

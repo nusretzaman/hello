@@ -2,30 +2,29 @@
   "name": "test",
   "description": "testing",
   "version": "0.0.0",
+  "private": true,
   "author": {
       "name": "nusret",
       "email": "nusretzaman03@gmail.com"
   },
-  "contributors": [
-    {
-      "name": "",
-      "email": ""
-    }
-  ],
   "dependencies": {
-      /*"socket.io": "latest"
-     ,"express": "3.4.7"
-      ,"ejs": "0.8.5"*/
+      "socket.io": "latest"
+      ,"express": "latest"
+      ,"ejs": "0.8.5"
+      ,"mongoose":"3.6.9"
+      ,"connect": "3.x.x"
+      ,"amqp": "0.1.7"
+      ,"neo4j": "1.0.0"
+      ,"elasticsearchclient": "0.2.2"
+      ,"mailer": "0.6.7"
+      ,"wns": "0.5.1"
+      ,"fs": "0.0.0"
   },
-  "keywords": [
-    "express",
-    "web",
-    "restful",
-    "router",
-    "app"
-
-  ],
-  "scripts": {
-   "start":"node hello.js"
-  }
+    "keywords": [
+        "express"
+    ],
+    "engines":{
+        "node":"0.10.x",
+        "npm":"1.2.x"
+    }
 }
