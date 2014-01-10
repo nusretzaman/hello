@@ -1,0 +1,27 @@
+var mongoURL = 'mongodb://devuser:devpass@ds045147.mongolab.com:45147/sisigma_dev';
+
+var mongoose = require('mongoose');
+var DBModel = require('./schema');
+
+function DB(){
+    console.log("DB connecting");
+    this.db = mongoose.connect(mongoURL,function(err,success)
+    {
+        if(err){
+            console.log(err+ "In Mongo DB");
+        }
+        if(success){
+            console.log(success);
+        }
+    });
+    this.connection = this.db.connection;
+    mongoose.connection.on("open",openConnection);
+}
+
+function openConnection() {
+    console.log("In Mongo DB");
+    console.log('MongoDB Database Connected Successfully');
+}
+
+module.exports = new DB();
+module.exports.DBModel = require('./schema');

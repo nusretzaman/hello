@@ -1,0 +1,37 @@
+var database = require('../DB/MongoDB');
+
+exports.InsertUserMatriix=function(req,res){
+    var connectionId="blah";
+    var userId="sara";
+    //console.log("here");
+    req.rpv=4;
+    database.DBModel.CollaborationMatrix.find({connectionId:connectionId}).exec(function(err,data){
+        if(data.length>0){
+        console.log(data.length+" exists");
+        res.send("exists");
+        }
+        else{
+
+            var userMatriix = new database.DBModel.CollaborationMatrix({
+            userId:userId
+            ,recentProfileVisit:Number(req.rpv)
+            ,maxProfileVisit:Number(req.rpv)
+            ,recentEmail:Number(req.rpv)
+            ,maxEmail:Number(req.rpv)
+            ,recentChat:Number(req.rpv)
+            ,maxChat:Number(req.rpv)
+            ,leftMessage:Number(req.rpv)
+            ,connectionId: connectionId
+                //guid.uuid()
+        });
+
+            userMatriix.save(function(err, matrixData) {
+                if (matrixData) {
+                    res.send("inserted");
+                }
+                else{
+                    res.send(err);
+                }});
+        }
+    });
+}
