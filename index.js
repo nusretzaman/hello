@@ -11,6 +11,7 @@ app.get("/",function(req,res){
 
 app.get("/insertMatrixData",collaborationManager.InsertUserMatriix);
 app.get("/chat",messanger.chat);
+app.get("/dummy",collaborationManager.dummy);
 
 app.use(function(err, req, res, next){
     console.error(err.stack);

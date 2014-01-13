@@ -1,37 +1,80 @@
 var database = require('../DB/MongoDB');
 
-exports.InsertUserMatriix=function(req,res){
-    var connectionId="blah";
-    var userId="sara";
+exports.dummy=function(){
+    generateCollaborationmatrix();
+}
+
+exports.InsertUserMatriix = function (req, res) {
+    var connectionId = "blah";
+    var userId = "sara";
     //console.log("here");
-    req.rpv=4;
-    database.DBModel.CollaborationMatrix.find({connectionId:connectionId}).exec(function(err,data){
-        if(data.length>0){
-        console.log(data.length+" exists");
-        res.send("exists");
+    req.rpv = 4;
+    database.DBModel.CollaborationMatrix.find({connectionId: connectionId}).exec(function (err, data) {
+        if (data.length > 0) {
+            console.log(data.length + " exists");
+            res.send("exists");
         }
-        else{
+        else {
 
             var userMatriix = new database.DBModel.CollaborationMatrix({
-            userId:userId
-            ,recentProfileVisit:Number(req.rpv)
-            ,maxProfileVisit:Number(req.rpv)
-            ,recentEmail:Number(req.rpv)
-            ,maxEmail:Number(req.rpv)
-            ,recentChat:Number(req.rpv)
-            ,maxChat:Number(req.rpv)
-            ,leftMessage:Number(req.rpv)
-            ,connectionId: connectionId
+                userId: userId, recentProfileVisit: Number(req.rpv), maxProfileVisit: Number(req.rpv), recentEmail: Number(req.rpv), maxEmail: Number(req.rpv), recentChat: Number(req.rpv), maxChat: Number(req.rpv), leftMessage: Number(req.rpv), connectionId: connectionId
                 //guid.uuid()
-        });
+            });
 
-            userMatriix.save(function(err, matrixData) {
+            userMatriix.save(function (err, matrixData) {
                 if (matrixData) {
                     res.send("inserted");
                 }
-                else{
+                else {
                     res.send(err);
-                }});
+                }
+            });
         }
+    });
+}
+var collaborationMatrix=[];
+
+function save(userId,connectionId,val,field){
+    var exists=false;
+    for( var k = 0; k < collaborationMatrix.length; ++k ) {
+        if( (userId == collaborationMatrix[k]["userId"]) && (connectionId == collaborationMatrix[k]["connectionId"]) ) {
+            collaborationMatrix[k][field] = val ;
+            exists=true;
+            console.log("exists");
+            break;
+        }
+    }
+    if(!exists){
+    collaborationMatrix.push({userId:userId
+        ,recentProfileVisit:0
+        ,maxProfileVisit:0
+        ,recentEmail:0
+        ,maxEmail:0
+        ,recentChat:0
+        ,maxChat:0
+        ,leftMessage:0
+        ,connectionId:connectionId});
+    }
+}
+
+function generateCollaborationmatrix() {
+
+    database.DBModel.Account.find({status: 2,accessToken:'F8DE74E2-0597-47E0-BAD1-D97B06595BDD'}).exec(function (err, users) {
+    //database.DBModel.Account.find({status: 2}).exec(function (err, users) {
+        if (users) {
+            for (var i = 0; i < users.length; i++) {
+                var user = users[i];
+                for (var j = 0; j < user.personalConnections.length; j++) {
+                    save(user._id,user.personalConnections[j]._id);
+                }
+                for (var k = 0; k < user.corporateConnections.length; k++) {
+                    save(user._id,user.corporateConnections[k]._id);
+                }
+            }
+            save("51f2c4edd5201a0200000076","51f347ca8fae110200000042",5,"recentProfileVisit");
+
+            console.log(collaborationMatrix);
+        }
+
     });
 }
