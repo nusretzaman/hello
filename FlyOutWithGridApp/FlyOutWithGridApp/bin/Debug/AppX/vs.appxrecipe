@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>NUSRET-PC</Machine>
+    <WindowsUser>nusret.zaman</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>96D924A1A80D5FA38341366E4F84390A0926CFC61CAE26AA2BF0E1EFAEA43597</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>53fac46c-87ff-489b-95d4-f68e37bdda77_1.0.0.0_neutral__7hxf8v2kzvxcj</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>53fac46c-87ff-489b-95d4-f68e37bdda77_7hxf8v2kzvxcj!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>53fac46c-87ff-489b-95d4-f68e37bdda77</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=nusret.zaman</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\nusret.zaman\Documents\Visual Studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-16T05:36:51.895</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\nusret.zaman\Documents\Visual Studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2014-03-16T05:33:28.887</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nusret.zaman\Documents\Visual Studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\pages\FlyOut\settings.css">
+      <PackagePath>pages\FlyOut\settings.css</PackagePath>
+      <Modified>2014-03-16T05:34:45.511</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nusret.zaman\Documents\Visual Studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\pages\itemDetail\itemDetail.css">
+      <PackagePath>pages\itemDetail\itemDetail.css</PackagePath>
+      <Modified>2014-03-16T05:33:28.907</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nusret.zaman\Documents\Visual Studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\pages\groupDetail\groupDetail.css">
+      <PackagePath>pages\groupDetail\groupDetail.css</PackagePath>
+      <Modified>2014-03-16T05:33:28.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nusret.zaman\Documents\Visual Studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\pages\groupedItems\groupedItems.css">
+      <PackagePath>pages\groupedItems\groupedItems.css</PackagePath>
+      <Modified>2014-03-16T05:33:28.923</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nusret.zaman\Documents\Visual Studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-08-05T12:59:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nusret.zaman\Documents\Visual Studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-08-05T12:59:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nusret.zaman\Documents\Visual Studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-08-05T12:59:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nusret.zaman\Documents\Visual Studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-08-05T12:59:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nusret.zaman\Documents\Visual Studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\js\data.js">
+      <PackagePath>js\data.js</PackagePath>
+      <Modified>2013-08-05T12:59:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nusret.zaman\Documents\Visual Studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2014-03-16T05:33:28.759</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nusret.zaman\Documents\Visual Studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+      <Modified>2014-03-16T05:33:29.132</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nusret.zaman\Documents\Visual Studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\pages\FlyOut\settings.js">
+      <PackagePath>pages\FlyOut\settings.js</PackagePath>
+      <Modified>2014-03-16T05:36:50.788</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nusret.zaman\Documents\Visual Studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\pages\itemDetail\itemDetail.js">
+      <PackagePath>pages\itemDetail\itemDetail.js</PackagePath>
+      <Modified>2014-03-16T05:33:29.230</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nusret.zaman\Documents\Visual Studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\pages\groupDetail\groupDetail.js">
+      <PackagePath>pages\groupDetail\groupDetail.js</PackagePath>
+      <Modified>2014-03-16T05:33:29.073</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nusret.zaman\Documents\Visual Studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\pages\groupedItems\groupedItems.js">
+      <PackagePath>pages\groupedItems\groupedItems.js</PackagePath>
+      <Modified>2014-03-16T05:33:29.109</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nusret.zaman\Documents\Visual Studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\pages\FlyOut\settings.html">
+      <PackagePath>pages\FlyOut\settings.html</PackagePath>
+      <Modified>2014-03-16T05:35:45.168</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nusret.zaman\Documents\Visual Studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\pages\itemDetail\itemDetail.html">
+      <PackagePath>pages\itemDetail\itemDetail.html</PackagePath>
+      <Modified>2014-03-16T05:33:28.937</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nusret.zaman\Documents\Visual Studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\pages\groupDetail\groupDetail.html">
+      <PackagePath>pages\groupDetail\groupDetail.html</PackagePath>
+      <Modified>2014-03-16T05:33:28.931</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nusret.zaman\Documents\Visual Studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\pages\groupedItems\groupedItems.html">
+      <PackagePath>pages\groupedItems\groupedItems.html</PackagePath>
+      <Modified>2014-03-16T05:33:28.979</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nusret.zaman\Documents\Visual Studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2014-03-16T05:33:28.796</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nusret.zaman\Documents\Visual Studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-03-16T05:36:51.563</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20789</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20789</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

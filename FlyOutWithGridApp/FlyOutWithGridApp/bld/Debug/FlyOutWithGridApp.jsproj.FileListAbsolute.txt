@@ -1,0 +1,9 @@
+c:\users\nusret.zaman\documents\visual studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\bin\Debug\resources.pri
+c:\users\nusret.zaman\documents\visual studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\bin\Debug\AppxManifest.xml
+c:\users\nusret.zaman\documents\visual studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\bin\Debug\FlyOutWithGridApp.build.appxrecipe
+c:\users\nusret.zaman\documents\visual studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\bld\Debug\priconfig.xml
+c:\users\nusret.zaman\documents\visual studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\bld\Debug\layout.resfiles
+c:\users\nusret.zaman\documents\visual studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\bld\Debug\resources.resfiles
+c:\users\nusret.zaman\documents\visual studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\bld\Debug\pri.resfiles
+c:\users\nusret.zaman\documents\visual studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\bld\Debug\LanguageQualifiers.txt
+c:\users\nusret.zaman\documents\visual studio 2012\Projects\FlyOutWithGridApp\FlyOutWithGridApp\bld\Debug\ProjectArchitectures.txt

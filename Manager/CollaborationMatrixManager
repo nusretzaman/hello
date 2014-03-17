@@ -4,7 +4,7 @@ exports.dummy=function(){
     generateCollaborationmatrix();
 }
 
-exports.InsertUserMatriix = function (req, res) {
+exports.InsertUserMatrix = function (req, res) {
     var connectionId = "blah";
     var userId = "sara";
     //console.log("here");

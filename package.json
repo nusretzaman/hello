@@ -9,7 +9,7 @@
   },
   "dependencies": {
       "socket.io": "latest"
-      ,"express": "latest"
+      ,"express": "3.4.7"
       ,"ejs": "0.8.5"
       ,"mongoose":"3.6.9"
       ,"connect": "3.x.x"
